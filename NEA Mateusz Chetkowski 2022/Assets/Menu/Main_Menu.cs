@@ -11,7 +11,12 @@ public class Main_Menu : MonoBehaviour {
 	}
 	public void SettingMenu ()
 	{
-		Debug.Log ("SETTINGS");
+		SceneManager.LoadScene(2);
+	}
+
+	public void BackButton()
+	{
+		SceneManager.LoadScene (0);
 	}
 
 		
