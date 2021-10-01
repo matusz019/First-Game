@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * created: Sprint 1
+ * Last Edited: Sprint 1
+ * Purpose: This script manages the players movement, including left, right, up, and down
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

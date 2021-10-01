@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * created: Sprint 2
+ * Last Edited: Sprint 2
+ * Purpose: This script makes it so that the sprite rotates towards the mouse pointer
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

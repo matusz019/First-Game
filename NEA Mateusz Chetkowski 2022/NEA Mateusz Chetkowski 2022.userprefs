@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Character\Camtracking.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Menu\Main_Menu.cs">
     <Files>
-      <File FileName="Assets\Menu\Main_Menu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Character\Movemnt.cs" Line="7" Column="14" />
-      <File FileName="Assets\Character\Mousetourn.cs" Line="18" Column="2" />
-      <File FileName="Assets\Character\Camtracking.cs" Line="15" Column="72" />
+      <File FileName="Assets\Menu\Main_Menu.cs" Line="31" Column="4" />
+      <File FileName="Assets\Character\Movemnt.cs" Line="4" Column="90" />
+      <File FileName="Assets\Character\Mousetourn.cs" Line="4" Column="86" />
+      <File FileName="Assets\Character\Camtracking.cs" Line="32" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
