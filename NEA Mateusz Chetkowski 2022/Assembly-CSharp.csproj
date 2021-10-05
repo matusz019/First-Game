@@ -56,6 +56,7 @@
      <Compile Include="Assets\Character\Camtracking.cs" />
      <Compile Include="Assets\Character\Mousetourn.cs" />
      <Compile Include="Assets\Character\Movemnt.cs" />
+     <Compile Include="Assets\Character\Shooting.cs" />
      <Compile Include="Assets\Menu\Main_Menu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
