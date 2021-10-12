@@ -53,12 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\bullet.cs" />
+     <Compile Include="Assets\Bullet\bullet.cs" />
+     <Compile Include="Assets\Bullet\SpawnBullet.cs" />
      <Compile Include="Assets\Character\Camtracking.cs" />
      <Compile Include="Assets\Character\Mousetourn.cs" />
      <Compile Include="Assets\Character\Movemnt.cs" />
+     <Compile Include="Assets\Enemy\enemyMove.cs" />
      <Compile Include="Assets\Menu\Main_Menu.cs" />
-     <Compile Include="Assets\SpawnBullet.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
