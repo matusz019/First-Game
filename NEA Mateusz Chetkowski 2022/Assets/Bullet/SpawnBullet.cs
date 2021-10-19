@@ -12,7 +12,7 @@ public class SpawnBullet : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Mouse0)) {
 			Instantiate (bulletPrefab, firePos.position, firePos.rotation);
-			Debug.Log ("shoot!");
+			//Debug.Log ("shoot!");
 		}
 	}
 }

@@ -12,8 +12,8 @@ public class enemyMove : MonoBehaviour {
 
 
 	public Rigidbody2D rb;
-	private float speed = 5f;
-	public bool moveLeft = true;
+	private float speed = 2f;
+	private bool moveLeft = true;
 
 	// Use this for initialization
 	void Update () {
@@ -28,11 +28,11 @@ public class enemyMove : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D col){
 		if(col.gameObject.tag == "colL"){
 			moveLeft = false;
-			Debug.Log ("I have collided with left");
+			//Debug.Log ("I have collided with left");
 		}
 		if (col.gameObject.tag == "colR") {
 			moveLeft = true;
-			Debug.Log ("I have collided with right");
+			//Debug.Log ("I have collided with right");
 		}
 	}
 }
