@@ -14,7 +14,7 @@ public class enemyHealth : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void OnTriggerEnter2D (Collider2D col){
+	void OnCollisionEnter2D (Collision2D col){
 		if (col.gameObject.tag == "bullet") {
 			health -= 1;
 			Debug.Log ("I have collided with bullet");
