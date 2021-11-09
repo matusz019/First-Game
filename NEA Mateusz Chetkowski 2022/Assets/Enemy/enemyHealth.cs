@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * created: Sprint 5
+ * Last Edited: Sprint 6
+ * Purpose: This script makes it so that the enemies disappear after being shot 3 times 
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,6 +30,7 @@ public class enemyHealth : MonoBehaviour {
 	void Update(){
 		if (health == 0){
 			Destroy (gameObject);
+
 		}
 	}
 }
