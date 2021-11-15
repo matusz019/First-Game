@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Playerhealth : MonoBehaviour {
 
@@ -24,7 +25,12 @@ public class Playerhealth : MonoBehaviour {
 	void Update(){
 		if (health == 0){
 			Destroy (gameObject);
+			DeathScreen ();
 		}
+	}
+	public void DeathScreen()
+	{
+		SceneManager.LoadScene (2);						// Loads the main menu 
 	}
 }
 

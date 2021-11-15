@@ -62,6 +62,7 @@
      <Compile Include="Assets\Enemy\enemyHealth.cs" />
      <Compile Include="Assets\Enemy\enemyMove.cs" />
      <Compile Include="Assets\Enemy\enemyShooting.cs" />
+     <Compile Include="Assets\Menu\DeathScreen.cs" />
      <Compile Include="Assets\Menu\Main_Menu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
