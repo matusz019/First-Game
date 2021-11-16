@@ -1,6 +1,6 @@
 ﻿/*
  * created: Sprint 1
- * Last Edited: Sprint 7
+ * Last Edited: Sprint 1
  * Purpose: This script manages the navigation of my buttons
  */
 
@@ -22,12 +22,12 @@ public class Main_Menu : MonoBehaviour {
 	{
 		SceneManager.LoadScene(2);						// Loads the setting menu scene
 	}
-	*/
+
 
 	public void ReturnToMenuButton()
 	{
 		SceneManager.LoadScene (0);						// Loads the main menu 
-	}
+	}*/
 
 	public void EasyDifficulty ()
 	{

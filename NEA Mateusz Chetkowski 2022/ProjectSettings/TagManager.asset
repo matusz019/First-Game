@@ -8,6 +8,7 @@ TagManager:
   - colR
   - colL
   - bullet
+  - Enemy2
   layers:
   - Default
   - TransparentFX
