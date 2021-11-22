@@ -19,7 +19,7 @@ public class PlayerDetection : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		distance = Vector3.Distance (Enemy.position, Player.position);
-		Debug.Log (distance);
+		//Debug.Log (distance);
 		if (Vector3.Distance(transform.position, target.position) > 1f)
 		{
 			RotateTowardsTarget();
