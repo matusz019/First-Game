@@ -24,6 +24,7 @@ public class Playerhealth : MonoBehaviour {
 
 	void Update(){
 		if (health == 0){
+			Ded ();
 			Destroy (gameObject);
 			DeathScreen ();
 		}

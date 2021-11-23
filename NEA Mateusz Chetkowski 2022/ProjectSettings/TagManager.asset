@@ -9,6 +9,7 @@ TagManager:
   - colL
   - bullet
   - Enemy2
+  - Timer
   layers:
   - Default
   - TransparentFX

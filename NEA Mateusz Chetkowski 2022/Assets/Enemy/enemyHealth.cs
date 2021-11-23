@@ -23,7 +23,7 @@ public class enemyHealth : MonoBehaviour {
 	void OnCollisionEnter2D (Collision2D col){
 		if (col.gameObject.tag == "bullet") {
 			health -= 1;
-			Debug.Log ("I have collided with bullet");
+			//Debug.Log ("I have collided with bullet");
 		}
 	}
 
