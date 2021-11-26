@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class timer : MonoBehaviour {
 
@@ -16,4 +17,9 @@ public class timer : MonoBehaviour {
 	void Update () {
 		timerText.text = "Time: " + Time.timeSinceLevelLoad.ToString ();
 	}
+	//void ResetTimer(){
+	//	if (SceneManager.GetActiveScene() == 2){
+	//		
+	//	}
+	//}
 }
