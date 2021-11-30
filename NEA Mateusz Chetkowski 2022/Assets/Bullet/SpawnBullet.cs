@@ -12,13 +12,25 @@ public class SpawnBullet : MonoBehaviour {
 
 	public GameObject bulletPrefab;
 	public Transform firePos;
-
+	public bool haveGun = false;
 	
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Mouse0)) {
 			Instantiate (bulletPrefab, firePos.position, firePos.rotation);
 			//Debug.Log ("shoot!");
+		}
+		if (haveGun == true) {
+			if (Input.GetKey (KeyCode.Mouse0)) {
+				Instantiate (bulletPrefab, firePos.position, firePos.rotation);
+			}
+		}
+	}
+	void OnTriggerEnter2D(Collider2D col){
+		
+		if (col.gameObject.tag == "Gun") {
+			haveGun = true;
+			Debug.Log ("I have picked up gun");
 		}
 	}
 }

@@ -10,7 +10,7 @@ using UnityEngine;
 
 public class enemyHealth : MonoBehaviour {
 
-	public int health = 3;
+	private int health = 3;
 	public Rigidbody2D rb;
 
 

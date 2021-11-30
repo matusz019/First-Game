@@ -15,7 +15,8 @@ public class timer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		timerText.text = "Time: " + Time.timeSinceLevelLoad.ToString ();
+		timerText.text = "Time: " + Time.timeSinceLevelLoad.ToString ("00.00");
+
 	}
 	//void ResetTimer(){
 	//	if (SceneManager.GetActiveScene() == 2){

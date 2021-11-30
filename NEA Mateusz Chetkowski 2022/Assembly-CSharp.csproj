@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Armour.cs" />
      <Compile Include="Assets\Bullet\bullet.cs" />
      <Compile Include="Assets\Bullet\SpawnBullet.cs" />
      <Compile Include="Assets\Character\Camtracking.cs" />

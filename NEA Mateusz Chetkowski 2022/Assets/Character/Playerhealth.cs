@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Playerhealth : MonoBehaviour {
 
-	private int health = 3;
+	public int health = 3;
 	public Rigidbody2D rb;
 
 
@@ -20,8 +20,15 @@ public class Playerhealth : MonoBehaviour {
 			health -= 1;
 			//Debug.Log ("I have collided with bullet");
 		}
+			
 	}
 
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.gameObject.tag == "Armour") {
+			health += 1;
+			//Debug.Log ("I have picked up armour");
+		}
+	}
 	void Update(){
 		if (health == 0){
 			Destroy (gameObject);

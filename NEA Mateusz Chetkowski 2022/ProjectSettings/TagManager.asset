@@ -10,6 +10,8 @@ TagManager:
   - bullet
   - Enemy2
   - Timer
+  - Armour
+  - Gun
   layers:
   - Default
   - TransparentFX
