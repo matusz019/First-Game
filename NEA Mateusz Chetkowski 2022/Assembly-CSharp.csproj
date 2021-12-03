@@ -58,7 +58,6 @@
      <Compile Include="Assets\Bullet\SpawnBullet.cs" />
      <Compile Include="Assets\Character\Camtracking.cs" />
      <Compile Include="Assets\Character\Mousetourn.cs" />
-     <Compile Include="Assets\Character\Movemnt.cs" />
      <Compile Include="Assets\Character\Playerhealth.cs" />
      <Compile Include="Assets\Enemy\enemyHealth.cs" />
      <Compile Include="Assets\Enemy\enemyMove.cs" />

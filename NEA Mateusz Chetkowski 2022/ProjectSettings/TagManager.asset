@@ -12,6 +12,7 @@ TagManager:
   - Timer
   - Armour
   - Gun
+  - Can
   layers:
   - Default
   - TransparentFX

@@ -30,4 +30,19 @@ public class Mousetourn : MonoBehaviour {
 		float angle = Mathf.Atan2 (dir.y, dir.x) * Mathf.Rad2Deg;
 		rb.rotation = angle;
 	}
+	void OnTriggerEnter2D(Collider2D col){
+
+		if (col.gameObject.tag == "Can") {
+			Destroy (col.gameObject);
+			StartCoroutine (SpeedBuff());
+			Debug.Log ("I have picked up gun");
+		}
+	}
+
+	IEnumerator SpeedBuff()
+	{
+		movespeed = 10f;
+		yield return new WaitForSeconds (5);
+		movespeed = 5f;
+	}
 }

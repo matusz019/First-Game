@@ -29,8 +29,16 @@ public class SpawnBullet : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		
 		if (col.gameObject.tag == "Gun") {
-			haveGun = true;
+			Destroy (col.gameObject);
+			StartCoroutine (AutoGun());
 			Debug.Log ("I have picked up gun");
 		}
+	}
+
+	IEnumerator AutoGun()
+	{
+		haveGun = true;
+		yield return new WaitForSeconds (5);
+		haveGun = false;
 	}
 }
