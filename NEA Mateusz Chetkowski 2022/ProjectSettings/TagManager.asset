@@ -13,6 +13,8 @@ TagManager:
   - Armour
   - Gun
   - Can
+  - Shield
+  - Handcuffs
   layers:
   - Default
   - TransparentFX

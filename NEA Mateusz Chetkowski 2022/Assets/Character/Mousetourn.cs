@@ -35,13 +35,24 @@ public class Mousetourn : MonoBehaviour {
 		if (col.gameObject.tag == "Can") {
 			Destroy (col.gameObject);
 			StartCoroutine (SpeedBuff());
-			Debug.Log ("I have picked up gun");
+			Debug.Log ("I have picked up can");
+		}
+		if (col.gameObject.tag == "Handcuffs") {
+			Destroy (col.gameObject);
+			StartCoroutine (SpeedDebuff());
+			Debug.Log ("I have picked up Handcuffs");
 		}
 	}
 
 	IEnumerator SpeedBuff()
 	{
 		movespeed = 10f;
+		yield return new WaitForSeconds (5);
+		movespeed = 5f;
+	}
+	IEnumerator SpeedDebuff()
+	{
+		movespeed = 2.5f;
 		yield return new WaitForSeconds (5);
 		movespeed = 5f;
 	}
