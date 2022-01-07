@@ -38,19 +38,7 @@ public class Playerhealth : MonoBehaviour {
 		}
 	}
 
-	/*void OnTriggerEnter2D(Collider2D col){
-		if (col.gameObject.tag == "Armour") {
-			health += 1;
-			Debug.Log ("I have picked up armour");
-		}
-	}
-	void OnTriggerEnter2D(Collider2D col){
-		if (col.gameObject.tag == "Shield") {
-			Destroy (col.gameObject);
-			Debug.Log ("I have picked up Shield");
-			StartCoroutine (invincibility());
-		}
-	}*/
+
 
 	IEnumerator invincibility()
 	{

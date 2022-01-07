@@ -1,17 +1,19 @@
 ﻿/*
  * created: Sprint 5
- * Last Edited: Sprint 6
- * Purpose: This script makes it so that the enemies disappear after being shot 3 times 
+ * Last Edited: Sprint 12
+ * Purpose: This script makes it so that the enemies disappear after being shot 3 times, then instantiates a buff or a debuff where they died
 */
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random
 
 public class enemyHealth : MonoBehaviour {
 
 	private int health = 3;
 	public Rigidbody2D rb;
+	private int chance1 = 0;
 
 
 	// Use this for initialization
@@ -29,6 +31,10 @@ public class enemyHealth : MonoBehaviour {
 
 	void Update(){
 		if (health == 0){
+			chance1 = Random.Range (1, 10);
+			if (chance1 == 10){
+				
+			}
 			Destroy (gameObject);
 
 		}
