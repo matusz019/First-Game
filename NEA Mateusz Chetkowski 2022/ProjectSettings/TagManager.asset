@@ -15,6 +15,9 @@ TagManager:
   - Can
   - Shield
   - Handcuffs
+  - Flashbang
+  - Broken gun
+  - BrokenGun
   layers:
   - Default
   - TransparentFX
