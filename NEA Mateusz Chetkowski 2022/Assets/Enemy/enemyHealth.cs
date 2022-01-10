@@ -7,7 +7,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Random
+
 
 public class enemyHealth : MonoBehaviour {
 
@@ -21,7 +21,7 @@ public class enemyHealth : MonoBehaviour {
 		
 	}
 	
-	// Update is called once per frame
+	//Update is called once per frame
 	void OnCollisionEnter2D (Collision2D col){
 		if (col.gameObject.tag == "bullet") {
 			health -= 1;
@@ -31,10 +31,10 @@ public class enemyHealth : MonoBehaviour {
 
 	void Update(){
 		if (health == 0){
-			chance1 = Random.Range (1, 10);
-			if (chance1 == 10){
-				
-			}
+			//chance1 = Random.Range (1, 10);
+			//if (chance1 == 10){
+			//	Instantiate 
+			//}
 			Destroy (gameObject);
 
 		}
