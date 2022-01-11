@@ -32,16 +32,19 @@ public class Main_Menu : MonoBehaviour {
 	public void EasyDifficulty ()
 	{
 		Difficulty = "Easy";
+		PlayerPrefs.SetString ("Difficulty", Difficulty);
 		Debug.Log ("Difficulty = Easy");				// Sets difficulty setting to easy
 	}
 	public void NormalDifficulty ()
 	{
 		Difficulty = "Normal";
+		PlayerPrefs.SetString ("Difficulty", Difficulty);
 		Debug.Log ("Difficulty = Normal");				//Sets difficulty setting to normal
 	}
 	public void HardDifficulty ()
 	{
 		Difficulty = "Hard";
+		PlayerPrefs.SetString ("Difficulty", Difficulty);
 		Debug.Log ("Difficulty = Hard");				//Sets difficulty setting to hard
 	}
 

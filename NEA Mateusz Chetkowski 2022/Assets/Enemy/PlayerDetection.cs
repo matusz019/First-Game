@@ -28,7 +28,7 @@ public class PlayerDetection : MonoBehaviour {
 
 	private void RotateTowardsTarget()
 	{
-		if (distance <= 7) {
+		if (distance <= 6) {
 			Vector2 direction = target.position - transform.position;
 			direction.Normalize ();
 			float angle = Mathf.Atan2 (direction.y, direction.x) * Mathf.Rad2Deg;       

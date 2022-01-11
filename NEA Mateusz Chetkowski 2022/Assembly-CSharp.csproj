@@ -66,6 +66,7 @@
      <Compile Include="Assets\Flashbang.cs" />
      <Compile Include="Assets\Menu\DeathScreen.cs" />
      <Compile Include="Assets\Menu\Main_Menu.cs" />
+     <Compile Include="Assets\Pause.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

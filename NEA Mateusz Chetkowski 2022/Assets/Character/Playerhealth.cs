@@ -5,15 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class Playerhealth : MonoBehaviour {
 
-	public int health = 3;
+	private int easyHealth = 5;
+	private int mediumHealth = 3;
+	private int hardHealth = 1;
+	public int health = 0;
 	public Rigidbody2D rb;
 	public bool shield = false;
 	private int tempHealth = 9999;
+	public string difficulty = "";
 
 
 	// Use this for initialization
 	void Start () {
-
+		if (PlayerPrefs.GetString ("Difficulty") == "Easy") {
+			health = easyHealth;
+		} else if (PlayerPrefs.GetString ("Difficulty") == "Normal") {
+			health = mediumHealth;
+		} else if (PlayerPrefs.GetString ("Difficulty") == "Hard") {
+			health = hardHealth;
+		}
 	}
 
 	// Update is called once per frame
@@ -55,6 +65,8 @@ public class Playerhealth : MonoBehaviour {
 			DeathScreen ();
 		}
 	}
+		
+
 	public void DeathScreen()
 	{
 		SceneManager.LoadScene (2);						// Loads the main menu 
