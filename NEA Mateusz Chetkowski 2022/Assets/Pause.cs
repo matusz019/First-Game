@@ -8,7 +8,7 @@ public class Pause : MonoBehaviour {
 	public bool paused = false;
 	public Image myPanel;
 	public Graphic myText;
-	float fadeTime = 0f;
+	//float fadeTime = 0f;
 	Color colourToFadeTo;
 	Color textColourToFadeTo;
 

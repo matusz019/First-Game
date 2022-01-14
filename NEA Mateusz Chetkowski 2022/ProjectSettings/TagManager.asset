@@ -18,6 +18,7 @@ TagManager:
   - Flashbang
   - Broken gun
   - BrokenGun
+  - armour ref
   layers:
   - Default
   - TransparentFX
