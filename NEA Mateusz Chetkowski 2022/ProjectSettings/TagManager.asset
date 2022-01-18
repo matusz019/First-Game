@@ -19,6 +19,7 @@ TagManager:
   - Broken gun
   - BrokenGun
   - armour ref
+  - nextLevel
   layers:
   - Default
   - TransparentFX

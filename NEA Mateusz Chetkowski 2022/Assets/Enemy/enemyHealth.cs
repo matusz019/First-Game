@@ -24,6 +24,7 @@ public class enemyHealth : MonoBehaviour {
 	private Vector2 position;
 
 
+
 	// Use this for initialization
 	void Start () {
 		flash = GameObject.FindGameObjectWithTag ("Flashbang");
@@ -40,7 +41,7 @@ public class enemyHealth : MonoBehaviour {
 	void Update(){
 		position = gameObject.transform.position;
 		if (health == 0){
-			chance1 = Random.Range (1, 30);
+			chance1 = Random.Range (1, 20);
 			if (chance1 == 15) {
 				Instantiate (armour, position, Quaternion.identity);
 			} else if (chance1 == 1) {
@@ -57,6 +58,7 @@ public class enemyHealth : MonoBehaviour {
 				Instantiate (cuffs, position, Quaternion.identity);
 			}
 			Destroy (gameObject);
+
 
 		}
 	}

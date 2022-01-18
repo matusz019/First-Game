@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Playerhealth : MonoBehaviour {
 
@@ -13,6 +14,7 @@ public class Playerhealth : MonoBehaviour {
 	public bool shield = false;
 	private int tempHealth = 9999;
 	public string difficulty = "";
+	public TextMeshPro healthText;
 
 
 	// Use this for initialization
@@ -42,9 +44,9 @@ public class Playerhealth : MonoBehaviour {
 			Debug.Log ("I have picked up armour");
 		}
 		if (col.name == "Shield") {
-			Destroy (col.gameObject);
 			Debug.Log ("I have picked up Shield");
 			StartCoroutine (invincibility());
+			Destroy (col.gameObject);
 		}
 	}
 
@@ -57,6 +59,7 @@ public class Playerhealth : MonoBehaviour {
 		yield return new WaitForSeconds (5);
 		shield = false;
 		Debug.Log ("You are no longer invincible");
+
 	}
 
 	void Update(){
@@ -64,6 +67,7 @@ public class Playerhealth : MonoBehaviour {
 			Destroy (gameObject);
 			DeathScreen ();
 		}
+
 	}
 		
 

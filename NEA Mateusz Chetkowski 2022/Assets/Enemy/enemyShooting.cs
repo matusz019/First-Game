@@ -9,6 +9,7 @@ public class enemyShooting : MonoBehaviour {
 	public bool canShoot = true;
 
 
+
 	// Use this for initialization
 	void Start () {
 		InvokeRepeating ("Reload", 0.1f, 1.0f);
