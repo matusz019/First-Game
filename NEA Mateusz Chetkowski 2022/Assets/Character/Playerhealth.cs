@@ -8,7 +8,7 @@ public class Playerhealth : MonoBehaviour {
 
 	private int easyHealth = 5;
 	private int mediumHealth = 3;
-	private int hardHealth = 1;
+	private int hardHealth = 2;
 	public int health = 0;
 	public Rigidbody2D rb;
 	public bool shield = false;
@@ -36,12 +36,14 @@ public class Playerhealth : MonoBehaviour {
 		} else if (col.gameObject.tag == "bullet" && shield == true) {
 			tempHealth -= 1;
 		}
+		healthText.text = "Health: " + health.ToString();
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.name == "Armour"){
 			health += 1;
 			Debug.Log ("I have picked up armour");
+			Destroy (col.gameObject);
 		}
 		if (col.name == "Shield") {
 			Debug.Log ("I have picked up Shield");

@@ -53,7 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Armour.cs" />
+     <Compile Include="Assets\Buffs\Armour.cs" />
+     <Compile Include="Assets\Buffs\Flashbang.cs" />
      <Compile Include="Assets\Bullet\bullet.cs" />
      <Compile Include="Assets\Bullet\SpawnBullet.cs" />
      <Compile Include="Assets\Character\Camtracking.cs" />
@@ -63,11 +64,12 @@
      <Compile Include="Assets\Enemy\enemyMove.cs" />
      <Compile Include="Assets\Enemy\enemyShooting.cs" />
      <Compile Include="Assets\Enemy\PlayerDetection.cs" />
-     <Compile Include="Assets\Flashbang.cs" />
      <Compile Include="Assets\Menu\DeathScreen.cs" />
      <Compile Include="Assets\Menu\Main_Menu.cs" />
-     <Compile Include="Assets\nextLevel.cs" />
-     <Compile Include="Assets\Pause.cs" />
+     <Compile Include="Assets\Menu\nextLevel.cs" />
+     <Compile Include="Assets\Menu\Pause.cs" />
+     <Compile Include="Assets\Menu\timer.cs" />
+     <Compile Include="Assets\Menu\Win.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -101,8 +103,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-     <Compile Include="Assets\timer.cs" />
-     <Compile Include="Assets\Win.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
