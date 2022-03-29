@@ -17,15 +17,9 @@ public class Camtracking : MonoBehaviour {
 	public Transform player;
 	public Vector3 offset;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
 	void Update () {
 
-		transform.position = new Vector3 (player.position.x, player.position.y, offset.z);
+		transform.position = new Vector3 (player.position.x, player.position.y, offset.z);				//changes the position of the camera to the player with an offset in the z axis
 
 	}
 }

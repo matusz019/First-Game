@@ -1,6 +1,6 @@
 ﻿/*
  * created: Sprint 2
- * Last Edited: Sprint 2
+ * Last Edited: Sprint 12
  * Purpose: This script makes it so that the bullet spawn when the left mouse button is pressed
  */
 

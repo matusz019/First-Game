@@ -481,7 +481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 140220087}
   m_Layer: 0
-  m_Name: Enemy1 (1)
+  m_Name: PatrollingEnemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 145389671}
   - component: {fileID: 145389670}
   m_Layer: 0
-  m_Name: Enemy2 (27)
+  m_Name: StaticEnemy28
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 170730037}
   - component: {fileID: 170730036}
   m_Layer: 0
-  m_Name: TextMeshPro Text
+  m_Name: Pause Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1093,7 +1093,7 @@ GameObject:
   - component: {fileID: 191360321}
   - component: {fileID: 191360320}
   m_Layer: 0
-  m_Name: Enemy2 (11)
+  m_Name: StaticEnemy13
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1111,7 +1111,7 @@ Transform:
   m_Children:
   - {fileID: 1869439027}
   m_Father: {fileID: 2048958497}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.782}
 --- !u!114 &191360320
 MonoBehaviour:
@@ -1284,7 +1284,7 @@ GameObject:
   - component: {fileID: 199903679}
   - component: {fileID: 199903678}
   m_Layer: 0
-  m_Name: Enemy2 (2)
+  m_Name: StaticEnemy3
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1503,7 +1503,7 @@ GameObject:
   - component: {fileID: 221078281}
   - component: {fileID: 221078280}
   m_Layer: 0
-  m_Name: Enemy2 (25)
+  m_Name: StaticEnemy26
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1750,7 +1750,7 @@ GameObject:
   - component: {fileID: 283022866}
   - component: {fileID: 283022865}
   m_Layer: 0
-  m_Name: Enemy2 (13)
+  m_Name: StaticEnemy15
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1768,7 +1768,7 @@ Transform:
   m_Children:
   - {fileID: 1334287131}
   m_Father: {fileID: 2048958497}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.782}
 --- !u!114 &283022865
 MonoBehaviour:
@@ -2064,7 +2064,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 321733704}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 19.16, y: -5.75, z: 0}
+  m_LocalPosition: {x: -22.52, y: 3.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1266327905}
@@ -2184,7 +2184,7 @@ GameObject:
   - component: {fileID: 356565299}
   - component: {fileID: 356565298}
   m_Layer: 0
-  m_Name: Enemy2 (9)
+  m_Name: StaticEnemy10
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2369,7 +2369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399528467}
   m_Layer: 0
-  m_Name: Enemy1 (3)
+  m_Name: PatrollingEnemy4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2406,7 +2406,7 @@ GameObject:
   - component: {fileID: 409895734}
   - component: {fileID: 409895733}
   m_Layer: 0
-  m_Name: Enemy2 (19)
+  m_Name: StaticEnemy20
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2625,7 +2625,7 @@ GameObject:
   - component: {fileID: 482437118}
   - component: {fileID: 482437117}
   m_Layer: 0
-  m_Name: Enemy2 (12)
+  m_Name: StaticEnemy14
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2643,7 +2643,7 @@ Transform:
   m_Children:
   - {fileID: 107477078}
   m_Father: {fileID: 2048958497}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.782}
 --- !u!114 &482437117
 MonoBehaviour:
@@ -3141,7 +3141,7 @@ GameObject:
   - component: {fileID: 535571778}
   - component: {fileID: 535571777}
   m_Layer: 0
-  m_Name: Enemy2 (24)
+  m_Name: StaticEnemy25
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3429,7 +3429,7 @@ GameObject:
   - component: {fileID: 621956703}
   - component: {fileID: 621956702}
   m_Layer: 0
-  m_Name: Enemy2 (10)
+  m_Name: StaticEnemy11
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3622,7 +3622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &632440527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3715,7 +3715,7 @@ GameObject:
   - component: {fileID: 637336338}
   - component: {fileID: 637336337}
   m_Layer: 0
-  m_Name: Enemy2 (6)
+  m_Name: StaticEnemy7
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3934,7 +3934,7 @@ GameObject:
   - component: {fileID: 716807343}
   - component: {fileID: 716807342}
   m_Layer: 0
-  m_Name: Enemy2 (21)
+  m_Name: StaticEnemy22
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4125,7 +4125,7 @@ GameObject:
   - component: {fileID: 741014006}
   - component: {fileID: 741014005}
   m_Layer: 0
-  m_Name: Enemy2 (7)
+  m_Name: StaticEnemy8
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4310,7 +4310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 755809042}
   m_Layer: 0
-  m_Name: Enemy1
+  m_Name: PatrollingEnemy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4347,7 +4347,7 @@ GameObject:
   - component: {fileID: 795261780}
   - component: {fileID: 795261779}
   m_Layer: 0
-  m_Name: Enemy2 (14)
+  m_Name: StaticEnemy16
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4365,7 +4365,7 @@ Transform:
   m_Children:
   - {fileID: 213074835}
   m_Father: {fileID: 2048958497}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.782}
 --- !u!114 &795261779
 MonoBehaviour:
@@ -16478,7 +16478,7 @@ GameObject:
   - component: {fileID: 861034709}
   - component: {fileID: 861034708}
   m_Layer: 0
-  m_Name: Enemy2 (1)
+  m_Name: StaticEnemy2
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17066,7 +17066,7 @@ GameObject:
   - component: {fileID: 1092436016}
   - component: {fileID: 1092436015}
   m_Layer: 0
-  m_Name: Enemy2 (28)
+  m_Name: StaticEnemy29
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17313,7 +17313,7 @@ GameObject:
   - component: {fileID: 1153577314}
   - component: {fileID: 1153577313}
   m_Layer: 0
-  m_Name: Enemy2 (32)
+  m_Name: StaticEnemy33
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17532,7 +17532,7 @@ GameObject:
   - component: {fileID: 1212945010}
   - component: {fileID: 1212945009}
   m_Layer: 0
-  m_Name: Enemy2 (8)
+  m_Name: StaticEnemy9
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17852,7 +17852,7 @@ GameObject:
   - component: {fileID: 1264141043}
   - component: {fileID: 1264141042}
   m_Layer: 0
-  m_Name: Enemy2 (18)
+  m_Name: StaticEnemy19
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18211,7 +18211,7 @@ GameObject:
   - component: {fileID: 1334119521}
   - component: {fileID: 1334119520}
   m_Layer: 0
-  m_Name: Enemy2 (30)
+  m_Name: StaticEnemy31
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18430,7 +18430,7 @@ GameObject:
   - component: {fileID: 1381083898}
   - component: {fileID: 1381083897}
   m_Layer: 0
-  m_Name: Enemy2 (15)
+  m_Name: StaticEnemy17
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18448,7 +18448,7 @@ Transform:
   m_Children:
   - {fileID: 1239760004}
   m_Father: {fileID: 2048958497}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.782}
 --- !u!114 &1381083897
 MonoBehaviour:
@@ -18649,7 +18649,7 @@ GameObject:
   - component: {fileID: 1431016992}
   - component: {fileID: 1431016991}
   m_Layer: 0
-  m_Name: Enemy2 (23)
+  m_Name: StaticEnemy24
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18997,7 +18997,7 @@ GameObject:
   - component: {fileID: 1579598174}
   - component: {fileID: 1579598173}
   m_Layer: 0
-  m_Name: Enemy2 (31)
+  m_Name: StaticEnemy32
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19182,7 +19182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1588871501}
   m_Layer: 0
-  m_Name: Enemy1 (2)
+  m_Name: PatrollingEnemy3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19219,7 +19219,7 @@ GameObject:
   - component: {fileID: 1602566396}
   - component: {fileID: 1602566397}
   m_Layer: 0
-  m_Name: Enemy2
+  m_Name: StaticEnemy1
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22204,7 +22204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1639062371}
   m_Layer: 0
-  m_Name: Enemy1 (4)
+  m_Name: PatrollingEnemy5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22269,7 +22269,7 @@ GameObject:
   - component: {fileID: 1695076301}
   - component: {fileID: 1695076300}
   m_Layer: 0
-  m_Name: Enemy2 (16)
+  m_Name: StaticEnemy18
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22287,7 +22287,7 @@ Transform:
   m_Children:
   - {fileID: 1690783585}
   m_Father: {fileID: 2048958497}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.782}
 --- !u!114 &1695076300
 MonoBehaviour:
@@ -22526,7 +22526,7 @@ GameObject:
   - component: {fileID: 1712930155}
   - component: {fileID: 1712930154}
   m_Layer: 0
-  m_Name: Enemy2 (5)
+  m_Name: StaticEnemy6
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23008,7 +23008,7 @@ GameObject:
   - component: {fileID: 1865813258}
   - component: {fileID: 1865813257}
   m_Layer: 0
-  m_Name: Enemy2 (26)
+  m_Name: StaticEnemy27
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23255,7 +23255,7 @@ GameObject:
   - component: {fileID: 1894381654}
   - component: {fileID: 1894381653}
   m_Layer: 0
-  m_Name: Enemy2 (20)
+  m_Name: StaticEnemy21
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23446,7 +23446,7 @@ GameObject:
   - component: {fileID: 1935569199}
   - component: {fileID: 1935569198}
   m_Layer: 0
-  m_Name: Enemy2 (4)
+  m_Name: StaticEnemy5
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23906,7 +23906,7 @@ GameObject:
   - component: {fileID: 2024562795}
   - component: {fileID: 2024562794}
   m_Layer: 0
-  m_Name: Enemy2 (17)
+  m_Name: StaticEnemy12
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23924,7 +23924,7 @@ Transform:
   m_Children:
   - {fileID: 339156679}
   m_Father: {fileID: 2048958497}
-  m_RootOrder: 19
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.782}
 --- !u!114 &2024562794
 MonoBehaviour:
@@ -24097,7 +24097,7 @@ GameObject:
   - component: {fileID: 2024798855}
   - component: {fileID: 2024798854}
   m_Layer: 0
-  m_Name: Enemy2 (29)
+  m_Name: StaticEnemy30
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24601,7 +24601,7 @@ GameObject:
   - component: {fileID: 2047009034}
   - component: {fileID: 2047009033}
   m_Layer: 0
-  m_Name: Enemy2 (22)
+  m_Name: StaticEnemy23
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24791,7 +24791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2048958497
 Transform:
   m_ObjectHideFlags: 0
@@ -24815,13 +24815,13 @@ Transform:
   - {fileID: 1212945008}
   - {fileID: 356565297}
   - {fileID: 621956701}
+  - {fileID: 2024562793}
   - {fileID: 191360319}
   - {fileID: 482437116}
   - {fileID: 283022864}
   - {fileID: 795261778}
   - {fileID: 1381083896}
   - {fileID: 1695076299}
-  - {fileID: 2024562793}
   - {fileID: 1264141041}
   - {fileID: 409895732}
   - {fileID: 1894381652}
@@ -25209,7 +25209,7 @@ GameObject:
   - component: {fileID: 2096547210}
   - component: {fileID: 2096547209}
   m_Layer: 0
-  m_Name: Enemy2 (3)
+  m_Name: StaticEnemy4
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

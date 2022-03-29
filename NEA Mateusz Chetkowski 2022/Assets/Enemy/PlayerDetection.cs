@@ -11,11 +11,6 @@ public class PlayerDetection : MonoBehaviour {
 	private float distance;
 
 	
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
 	// Update is called once per frame
 	void Update () {
 		distance = Vector3.Distance (Enemy.position, Player.position);

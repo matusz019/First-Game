@@ -55,10 +55,10 @@
   <ItemGroup>
      <Compile Include="Assets\Buffs\Armour.cs" />
      <Compile Include="Assets\Buffs\Flashbang.cs" />
-     <Compile Include="Assets\Bullet\bullet.cs" />
-     <Compile Include="Assets\Bullet\SpawnBullet.cs" />
+     <Compile Include="Assets\Character\Bullet\bullet.cs" />
+     <Compile Include="Assets\Character\Bullet\SpawnBullet.cs" />
      <Compile Include="Assets\Character\Camtracking.cs" />
-     <Compile Include="Assets\Character\Mousetourn.cs" />
+     <Compile Include="Assets\Character\Mouseturn.cs" />
      <Compile Include="Assets\Character\Playerhealth.cs" />
      <Compile Include="Assets\Enemy\enemyHealth.cs" />
      <Compile Include="Assets\Enemy\enemyMove.cs" />

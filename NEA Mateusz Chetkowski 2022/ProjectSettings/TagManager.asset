@@ -16,9 +16,7 @@ TagManager:
   - Shield
   - Handcuffs
   - Flashbang
-  - Broken gun
   - BrokenGun
-  - armour ref
   - nextLevel
   layers:
   - Default

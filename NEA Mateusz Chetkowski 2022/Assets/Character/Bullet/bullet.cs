@@ -23,6 +23,6 @@ public class bullet : MonoBehaviour {
 	// Update is called once per frame
 	void OnCollisionEnter2D()
 	{
-		Destroy(gameObject);
+		Destroy(gameObject);						//When the bullet collides with anything it will destroy itself
 	}
 }

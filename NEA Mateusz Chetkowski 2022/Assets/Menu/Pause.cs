@@ -27,7 +27,7 @@ public class Pause : MonoBehaviour {
 			textColourToFadeTo = new Color (1f, 1f, 1f, 1f);
 			myPanel.CrossFadeColor (colourToFadeTo, 0f, true, true);
 			myText.CrossFadeColor (textColourToFadeTo, 0f, true, true);
-			Time.timeScale = 0.0f;
+			Time.timeScale = 0;
 			paused = true;
 		}
 		if (Input.GetKeyDown (KeyCode.Escape) && paused == true){

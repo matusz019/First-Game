@@ -1,7 +1,7 @@
 ﻿/*
  * created: Sprint 4
  * Last Edited: Sprint 4
- * Purpose: This script manages the movement of my enemies that move back and forth
+ * Purpose: This script manages the movement of my patrolling enemies
  */
 
 using System.Collections;
@@ -16,7 +16,7 @@ public class enemyMove : MonoBehaviour {
 	private bool moveLeft = true;
 
 	// Use this for initialization
-	void Update () {
+	void Update () {											//if move left is not true then the enemy moves right and if its true then it moves left
 		if (moveLeft == true) {
 			rb.velocity = transform.up * speed;
 		} else {
@@ -25,7 +25,7 @@ public class enemyMove : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void OnTriggerEnter2D (Collider2D col){
+	void OnTriggerEnter2D (Collider2D col){						//When the enemy collides with the corresponding trigger the moveLeft variable changes accordingly
 		if(col.gameObject.tag == "colL"){
 			moveLeft = false;
 			//Debug.Log ("I have collided with left");
